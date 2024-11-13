@@ -1,3 +1,4 @@
+import '../global.css'
 
 export default function HeroText() {
   return (
@@ -6,7 +7,7 @@ export default function HeroText() {
 
       <p className='text-lg'>Learn your dream job with personalized preparation and expert guidance aided with our AI-powered job processing platform</p>
 
-      <button className='bg-main text-white px-4 py-2 rounded-md'>Start Here</button>
+      <button className='bg-main text-white px-8 py-2 rounded-md text-xl'>Start Here</button>
     </main>
   )
 }

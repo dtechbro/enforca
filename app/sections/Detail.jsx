@@ -10,9 +10,9 @@ export default function Detail() {
       <Link href='/' className="px-8 py-4 bg-white text-main rounded-md mt-4"> Get Started</Link>
 
       {/* Adding pseudo-elements for the angled edges */}
-      <div className="absolute top-0 left-0 w-full h-full -z-10 clip-top-left bg-main"></div>
+      <div className="absolute top-0 left-0 w-full h-full -z-10 clip-top-left"></div>
 
-      <div className="absolute bottom-0 right-0 w-full h-full -z-10 clip-bottom-right bg-main"></div>
+      <div className="absolute bottom-0 right-0 w-full h-full -z-10 clip-bottom-right"></div>
     </section>
   )
 }

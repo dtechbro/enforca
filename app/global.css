@@ -6,7 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
-body {
+.font-acme {
   font-family: 'Acme', sans-serif;
 }
 
@@ -21,6 +21,6 @@ body {
 
 /* Optional: Main color background */
 .bg-main {
-  background-color: #4C3DFF;
+  background-color: #01008A;
   /* Adjust this color to your main background */
 }
