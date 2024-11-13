@@ -72,7 +72,7 @@ export default function Footer() {
 
       <hr className='my-10 border-gray-500'/>
 
-      <section className='flex flex-col md:flex-row justify-between items-center'>
+      <section className='flex flex-col gap-4 md:flex-row justify-between items-center'>
         <div>
           <p>
             &copy; {new Date().getFullYear()} Enforca. All rights reserved.

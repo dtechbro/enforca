@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import Pattern from '../assets/Pattern.png'
 import HeroImage from '../assets/hero-image.png'
-import HeroBg from '../assets/hero-bg.png'
+import Robot from '../assets/robot.png'
 
 
 export default function Hero() {
@@ -15,16 +15,20 @@ export default function Hero() {
         <div className='flex flex-col gap-12'>
           <Navbar />
         
-          <main className='lg:flex lg:items-center lg:justify-between lg:gap-8'>
+          <main className='flex flex-col i lg:flex-row items-center lg:justify-between lg:gap-8'>
             <div className=''>
               <HeroText/>
             </div>
 
-          <div className='hidden lg:block relative'>
-            <Image className="h-full" src={ Pattern } alt="bg-pattern"/>
-            
+            <div className='hidden lg:block relative'>
+              <Image className="h-full" src={ Pattern } alt="bg-pattern"/>
+              
 
-            <Image className='absolute bottom-0 right-0' src={HeroImage} alt='Man on the hero section' width={350} height={350} layout='intrinsic' />
+              <Image className='absolute bottom-0 right-0' src={HeroImage} alt='Man on the hero section' width={350} height={350} layout='intrinsic' />
+            </div>
+          
+          <div>
+            <Image className="lg:hidden mt-4" src={Robot} alt="mobile image"/>
             </div>
           </main>
         </div>
