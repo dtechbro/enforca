@@ -10,7 +10,20 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   // Array of navigation links
-  const navLinks = ['Mentorship', 'Job Seekers', 'Contact'];
+  const navLinks = [
+    {
+      label: 'Mentorship',
+      to: '/'
+    },
+    {
+      label: 'Job Seekers',
+      to: '/auth'
+    },
+    {
+      label: 'Contact',
+      to: '/'
+    },
+  ];
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
@@ -25,8 +38,8 @@ export default function Navbar() {
         {/* Centered Links for Desktop */}
         <div className="hidden md:flex flex-grow justify-center space-x-4">
           {navLinks.map((link) => (
-            <Link href={`/${link.toLowerCase()}`} key={link} className="text-[#515B6F]">
-              {link}
+            <Link href={link.to} key={link.label} className="text-[#515B6F]">
+              {link.label }
             </Link>
           ))}
         </div>

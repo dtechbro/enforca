@@ -2,25 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
-.font-acme {
-  font-family: 'Acme', sans-serif;
+
+.input-field {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.375rem;
+  background-color: #f9fafb;
+  font-size: 0.875rem;
+  outline: none;
 }
 
-/* Define the clip shapes */
-.clip-top-left {
-  clip-path: polygon(0 0, 85% 0, 75% 100%, 0% 100%);
-}
-
-.clip-bottom-right {
-  clip-path: polygon(15% 0, 100% 0, 100% 100%, 25% 100%);
-}
-
-/* Optional: Main color background */
-.bg-main {
-  background-color: #01008A;
-  /* Adjust this color to your main background */
+.input-field:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 1px rgba(59, 130, 246, 0.5);
 }

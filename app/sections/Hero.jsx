@@ -10,9 +10,9 @@ import Robot from '../assets/robot.png'
 export default function Hero() {
   return (
     
-    <section /* style={{ backgroundImage: `url(${HeroBg})` }} */ className='h-auto py-5 lg:pb-0 lg:pt-10 px-4 md:px-8 lg:px-32 bg-[#F8F8FD]'>
+    <section /* style={{ backgroundImage: `url(${HeroBg})` }} */ className='h-auto lg:h-screen py-5 lg:pb-0 lg:pt-10 px-4 md:px-8 lg:px-32 bg-[#F8F8FD]'>
         
-        <div className='flex flex-col gap-12'>
+        <div className='flex flex-col justify-between gap-12'>
           <Navbar />
         
           <main className='flex flex-col i lg:flex-row items-center lg:justify-between lg:gap-8'>
