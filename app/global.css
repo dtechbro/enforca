@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body {
+  font-family: 'Acme', sans-serif;
+}
+
+/* Define the clip shapes */
+.clip-top-left {
+  clip-path: polygon(0 0, 85% 0, 75% 100%, 0% 100%);
+}
+
+.clip-bottom-right {
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 25% 100%);
+}
+
+/* Optional: Main color background */
+.bg-main {
+  background-color: #4C3DFF;
+  /* Adjust this color to your main background */
+}

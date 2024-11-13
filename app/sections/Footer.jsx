@@ -58,7 +58,7 @@ export default function Footer() {
           {footerLinks.map((link) => (
             <div key={link} className='flex flex-col gap-5'>
               <h3 className='text-lg font-bold'>{link.title}</h3>
-              <ul>
+              <ul className="flex flex-col gap-2">
                 {link.links.map((item) => (
                   <li key={item}>
                     <Link href='/' className='font-light text-sm'>{item}</Link>

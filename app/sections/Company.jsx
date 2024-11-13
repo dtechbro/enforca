@@ -10,7 +10,7 @@ const companyLogo = [Logo1, Logo2, Logo3, Logo4, Logo5]
 
 export default function Company() {
   return (
-    <main className='py-20 flex flex-col gap-4'>
+    <main className='py-20 flex flex-col gap-8'>
       <h3 className='text-2xl font-bold'>Companies we helped grow</h3>
 
       <section className='flex flex-wrap items-center justify-between gap-4'>

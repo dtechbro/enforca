@@ -32,7 +32,7 @@ export default function Navbar() {
         </div>
 
         {/* Sign Up Button for Desktop */}
-        <button className="hidden md:inline-block text-white bg-main py-2 px-4 rounded-md hover:bg-blue-100">
+        <button className="hidden md:inline-block text-white bg-main py-2 px-5 rounded-md hover:bg-blue-100">
           Sign Up
         </button>
 
