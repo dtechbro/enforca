@@ -2,7 +2,7 @@ import { Facebook, Instagram, LinkedIn, Twitter } from "../assets/svg";
 import Image from "next/image";
 import Link from "next/link";
 
-import Enforca from '@/app/assets/enforca-white.png'
+import Enforca from '../assets/enforca-white.png'
 
 const footerLinks = [
   {

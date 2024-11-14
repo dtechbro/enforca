@@ -1,5 +1,7 @@
-import Logo1 from '@/app/assets/dropbox.png'
-import Logo2 from '@/app/assets/BlinkList.png'
+'use client'
+
+import Logo1 from '../assets/dropbox.png'
+import Logo2 from '../assets/BlinkList.png'
 import Image from 'next/image'
 import { Dot } from '../assets/svg'
 import Link from 'next/link'

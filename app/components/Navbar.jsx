@@ -1,10 +1,10 @@
-"use client";
+'use client'
 
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import Enforca from '@/app/assets/enforca.png'
+import Enforca from '../assets/enforca.png';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,15 +13,15 @@ export default function Navbar() {
   const navLinks = [
     {
       label: 'Mentorship',
-      to: '/'
+      to: 'https://mentor-techies.com/'
     },
     {
       label: 'Job Seekers',
-      to: '/auth'
+      to: '/pages/auth'
     },
     {
       label: 'Contact',
-      to: '/'
+      to: 'https://mentor-techies.com/'
     },
   ];
 
@@ -45,9 +45,9 @@ export default function Navbar() {
         </div>
 
         {/* Sign Up Button for Desktop */}
-        <button className="hidden md:inline-block text-white bg-main py-2 px-5 rounded-md hover:bg-blue-100">
+        <Link className="hidden md:inline-block text-white bg-main py-2 px-5 rounded-md" href='https://mentor-techies.com/' target="_blank">
           Sign Up
-        </button>
+        </Link>
 
         {/* Mobile Hamburger Icon */}
         <button

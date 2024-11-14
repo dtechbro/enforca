@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import AuthImage from '@/app/assets/auth-carousel-image-2.png';
+import AuthImage from '../../assets/auth-carousel-image-2.png';
 
 const AuthPage = () => {
   const router = useRouter();

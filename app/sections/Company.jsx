@@ -1,10 +1,10 @@
 import Image from "next/image"
 
-import Logo1 from '@/app/assets/logo-1.png'
-import Logo2 from '@/app/assets/logo-2.png'
-import Logo3 from '@/app/assets/logo-3.png'
-import Logo4 from '@/app/assets/logo-4.png'
-import Logo5 from '@/app/assets/logo-5.png'
+import Logo1 from '../assets/logo-1.png'
+import Logo2 from '../assets/logo-2.png'
+import Logo3 from '../assets/logo-3.png'
+import Logo4 from '../assets/logo-4.png'
+import Logo5 from '../assets/logo-5.png'
 
 const companyLogo = [Logo1, Logo2, Logo3, Logo4, Logo5]
 

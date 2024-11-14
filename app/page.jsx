@@ -9,13 +9,13 @@ export default function Home() {
     <>
       <Hero />
 
-      <main className='px-4 md:px-8 lg:px-32 py-12'>
+      <main className="px-4 md:px-8 lg:px-32 py-12">
         <Company />
         <Detail />
         <FeaturedJob />
       </main>
 
-      <main className='bg-main px-4 md:px-8 lg:px-32 py-12'>
+      <main className="bg-main px-4 md:px-8 lg:px-32 py-12">
         <Footer />
       </main>
     </>

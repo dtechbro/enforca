@@ -1,9 +1,9 @@
-import '../global.css'
+
 
 export default function HeroText() {
   return (
     <main className='flex flex-col items-start gap-4 px-2'>
-      <h1 className='text-2xl lg:text-4xl font-acme font-bold '>First AI job application and support platform.</h1>
+      <h1 className='text-2xl lg:text-4xl font-bold '>First AI job application and support platform.</h1>
 
       <p className='text-sm lg:text-lg '>Learn your dream job with personalized preparation and expert guidance aided with our AI-powered job processing platform</p>
 
